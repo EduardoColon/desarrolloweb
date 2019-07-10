@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Encabezado del documento   -->
+<head>
+	<!--  SE coloca el titulo a la pagina con la etiqueta title  -->
+	<title>Laboratorio #1</title>
+	<!--  La etiqueta style sirve para personalizar los distintos atributos de los elementos html, se utilza para no tener un archivo CSS aparte -->
+	<style>
+		.encabezado {
+			background-color: darkgray;
+			color: black;
+			padding: 20px;
+			font-family: 'Courier New', Courier, monospace;
+		}
+	</style>
+	<style>
+		.texto {
+			font-family: 'Courier New', Courier, monospace;
+
+			color: darkslategrey;
+			padding: 20px;
+			text-align: right;
+		}
+	</style>
+	<style>
+		.texto2 {
+			font-family: 'Courier New', Courier, monospace;
+
+			color: darkslategrey;
+			padding: 20px;
+			text-align: center;
+			size: 60px;
+		}
+	</style>
+	<style>
+		.imagen {
+			padding: 20px;
+			align-content: center;
+
+		}
+	</style>
+	<style>
+		.imagen_tabla {
+			width: 200px;
+			height: 200px;
+		}
+	</style>
+	<style>
+		.body {
+			background-color: beige;
+		}
+	</style>
+</head>
+
+<body class="body">
+	<!--  La etiqueta center centra todo lo que esta en su interior  -->
+	<center>
+		<!--  las etiquetas h1, h2 ... h6 sirven para indicar la jerarquia del texto que contienen siendo h1 el titulo principal  -->
+		<h1 class="encabezado">
+			Laboratorio #1
+		</h1>
+		<!--  la etiqueta p se utiliza para escribir parrafos  -->
+		<p>
+			<h2 class="texto2">Las imagenes fueron descargadas desde www.freepik.com</h2>
+			<!-- href sirve para abrir un enlace, se utilza el atributo target = _blank para que el vinculo se abra en una nueva pesta;a y no en la misma   -->
+			<a href="https://www.freepik.com/" target="_blank" class="texto2">Acceder</a>
+		</p>
+
+		<h2 class="texto2">Las imagenes se pueden apreciar en la siguiente tabla</h2>
+
+		<!--  se coloca una tabla con dos columnas y dos filas  -->
+		<table>
+			<tr>
+				<td><img src="images\paisaje1.jpg" class="imagen_tabla" /></td>
+				<td><img src="images\paisaje2.jpg" class="imagen_tabla" /></td>
+			</tr>
+			<tr>
+				<td><img src="images\paisaje3.jpg" class="imagen_tabla" /></td>
+				<td><img src="images\paisaje4.jpg" class="imagen_tabla" /></td>
+			</tr>
+		</table>
+		<hr />
+		<!--  la etiqueta img sirve para colocar imagenes  -->
+		<img src="images\paisaje1.jpg" class="imagen" />
+		<h3 class="texto">Dimensiones: 625X417</h3>
+		<!-- la etiqueta hr se utiliza para colocar una linea divisoria en la pagina web   -->
+		<hr />
+
+		<img src="images\paisaje2.jpg" class="imagen" />
+		<h3 class="texto">Dimensiones: 3264X1836</h3>
+		<hr />
+
+		<img src="images\paisaje3.jpg" class="imagen" />
+		<h3 class="texto">Dimensiones: 1200X800</h3>
+		<hr />
+
+		<img src="images\paisaje4.jpg" class="imagen" />
+		<h3 class="texto">Dimensiones: 625X417</h3>
+		<hr />
+		<h1 class="encabezado">
+			Eduardo Andrés Colón Flores
+			0901-16-21873
+		</h1>
+	</center>
+</body>
+
+</html>
+
+<!--   Eduardo Colon -->
+<!--   0901-16-21873 -->
