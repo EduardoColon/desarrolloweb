@@ -1,0 +1,86 @@
+
+.etiqueta1{
+	margin: 40px;
+	color: green;
+	width:40%;
+	font-size: 50px;
+	background: lightgreen;
+}
+
+.etiqueta2{
+  padding: 30px;
+  border: dotted;
+  font-size: 10em;
+  background-color: lightgrey;
+  align-content: right;
+  width: 30%;
+}
+
+.etiqueta3{
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-right: 20px;
+  border: dashed;
+  background-color: lightblue;
+  width: 50%;
+ }
+
+ .etiqueta4{
+ 	height: 400px;
+ 	width: 80%;
+ 	outline: none;
+ 	align-self: center;
+ 	border: all;
+ 	border-color: black;
+ }
+
+ .etiqueta5{
+ 	padding: 1em;
+ 	max-height: 30px;
+ 	min-height: 10px;
+ 	height: 12%;
+ 	text-align: right;
+ }
+
+  .etiqueta6{
+ 	font-weight: bold;
+ 	font-style: italic; 
+ 	font-size: 40px;
+ 	margin: 20px;
+ 	widows: all;
+ 	text-align: center;
+ }
+
+   .etiqueta7{
+ 	font-size: 20px;
+ 	text-indent: all;
+ 	text-shadow: all;
+ 	font-stretch: all;
+ 	font-size: 30px;
+ }
+
+  .etiqueta8{
+ color: green;
+ background-color: red;
+ border-color: blue;
+ border-radius: 30%;
+ width: 30%;
+ }
+
+  .etiqueta9{
+ border-color: blue;
+ border-radius: 30%;
+ max-width: 800px;
+ border-spacing: initial;
+ border-style: groove;
+ }
+
+
+  .etiqueta10{
+width: 60%;
+height: 200px;
+border-top: all;
+shape-outside: border-box;
+perspective: none;
+ }
+
