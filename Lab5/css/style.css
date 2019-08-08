@@ -1,0 +1,97 @@
+
+body{
+	background: green;
+}
+
+header, footer{
+	background: lightgreen;
+	margin: 20px;
+	padding: 20px;
+	height: 100px;
+}
+
+h2, p, blockquote{
+	font-family: sans-serif;
+	color:white;
+	text-decoration: blink;
+}
+
+section{
+	width: 30%;
+	display: inline-block;
+	background: lightgreen;
+	margin: 20px;
+	padding: 20px;
+}
+
+aside{
+	width: 50%;
+	display: inline-block;
+	background: lightgreen;
+	margin: 20px;
+	padding: 20px;
+}
+
+article{
+	background: lightgreen;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+aside, section{
+	background: lime;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+.titulo{
+	font-family: fantasy;
+
+	display:inline-block;
+	font-size: 3em;
+	color: white;
+	font-weight: bold;
+
+}
+
+.tituloArticle{
+	font-family: fantasy;
+	font-size: 3em;
+	color: white;
+	font-weight: bold;
+}
+
+img{
+	display:inline-block;
+	float: right;
+	height: 100px;
+	width: 100px;
+}
+
+nav{
+	display: -webkit-flex; 
+	-webkit-align-items: center; 
+	display: flex;
+	align-items: center;
+	background: lightgreen;
+	margin: 20px;
+	padding: 20px;
+	height: 50px;
+}
+
+.enlaceNav{
+	font-family: fantasy;
+
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: white;
+	font-size: 20px;
+}
+
+.parrafo{
+	width: 50%;
+	margin-left: 20px;
+}
