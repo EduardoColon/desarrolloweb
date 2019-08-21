@@ -1,0 +1,115 @@
+/*Se aplica la misma fuente a todo el documento */
+*{
+  color: white;
+  /*Se utiliza una fuente sacada de google fonts */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*se coloca como background al body un color solido */
+body{
+ background: #F6F6F6;
+}
+
+h1{
+  margin-left: 20px;
+  text-align: center;
+  display: inline;
+  vertical-align: middle;  
+}
+
+p, h3{
+  padding: 10px;
+  color: #000000;
+}
+
+header,
+section,
+aside,
+footer {
+  padding: 5px;
+  margin: 0 1.5% 24px 1.5%;
+  background: #a1a097;
+  border-radius: 8px;
+}
+
+header{
+  margin-top: 25px;
+  height: 70px;
+}
+
+nav{
+  overflow: hidden;
+  height: auto;
+  margin: 0 1.5% 24px 1.5%;
+  background: #a1a097;
+  border-radius: 8px;
+}
+
+article {
+  margin: 0 1.5% 24px 1.5%;
+  margin-bottom: 20px;
+  background: #a1a097;
+  float: left;
+  width: 68%;
+  border-radius: 15px;
+}
+aside {
+  margin-bottom: 15px;
+  float: right;
+  width: 25%;
+}
+
+footer {
+  clear: both;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+}
+
+section{
+  margin: 5px;
+  background: #ffffff;
+}
+
+/*atributos para correcto posicionamiento de elementos en el menu de navegacion */
+.navbar {
+  width: 100%;
+  background: #a1a097;
+  overflow: auto;
+}
+
+/*atributos para correcto posicionamiento de elementos en el menu de navegacion */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31.33%; 
+  text-align: center; 
+}
+
+.navbar a:hover {
+  background-color: #616160;
+}
+
+/* Menu de navegacion es responsive, se coloca de modo vertical cuando cuenta con menos espacio */
+@media screen and (max-width: 700px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; 
+  }
+}
+
+.imagenheader{
+  float: right;
+  width: 70px;
+  height: 70px;
+}
+
+.letrablanca{
+  color: white;
+}
