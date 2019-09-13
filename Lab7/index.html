@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="autor" content="Eduardo Colon 0901-16-21873" />
+    <LINK REL="stylesheet" TYPE="text/css" HREF="css/styles.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <form name="calculator" >
+        <input type="textfield" name="ans" value="" id="ans">
+        <br>
+        <input type="button" value="1" onClick="actualizarPantalla('1')">
+        <input type="button" value="2" onClick="actualizarPantalla('2')">
+        <input type="button" value="3" onClick="actualizarPantalla('3')">
+        <input type="button" value="+" onClick="actualizarPantalla('+')">
+        <br>
+        <input type="button" value="4" onClick="actualizarPantalla('4')">
+        <input type="button" value="5" onClick="actualizarPantalla('5')">
+        <input type="button" value="6" onClick="actualizarPantalla('6')">
+        <input type="button" value="-" onClick="actualizarPantalla('-')">
+        <br>
+        <input type="button" value="7" onClick="actualizarPantalla('7')">
+        <input type="button" value="8" onClick="actualizarPantalla('8')">
+        <input type="button" value="9" onClick="actualizarPantalla('9')">
+        <input type="button" value="*" onClick="actualizarPantalla('*')">
+        <br>
+        <input type="button" value="0" onClick="actualizarPantalla('0')">
+        <input type="reset" value="c">
+        <input type="button" value="/" onClick="actualizarPantalla('/')">
+        <input type="button" value="=" onClick="calcularResultado()">
+    </form>
+</body>
+</html>
